@@ -1,11 +1,15 @@
 import React, {useState} from "react";
 import axios from "axios";
+import {Link} from "react-router-dom";
 
 function RestAPI(){
     const [text, setText] = useState([]);
 
     return (
         <>
+            <Link to="Post/">
+                <h1>go to post</h1>
+            </Link>
             <h1>practice Rest API</h1>
             <div className="btn-primary">
                 <button onClick={()=>{
