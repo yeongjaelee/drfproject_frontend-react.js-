@@ -18,6 +18,12 @@ function Post(){
                     }}>
                     {item.title}
                     </Link>
+                    <button
+                        className="btn-delete"
+                        onClick={()=>{
+                            axios.delete(`http://127.0.0.1:8000/board/${item.id}/`);
+                            item.filter((text)=>text.id !==item.id)
+                        }}>delete</button>
                 </li>
                 ))}
             <Link to="/">
