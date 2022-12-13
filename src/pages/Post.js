@@ -13,7 +13,11 @@ function Post(){
             <h1>here is the board's main page</h1>
             {data.map((item)=>(
                 <li key = {item.id}>
+                    <Link to ="Post_detail/" state={{
+                        content: item.content
+                    }}>
                     {item.title}
+                    </Link>
                 </li>
                 ))}
             <Link to="/">
