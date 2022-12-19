@@ -24,6 +24,7 @@ function Post_create(){
         }
         axios.post("http://127.0.0.1:8000/board/", body)
             .then((res)=>console.log(res))
+        window.location.href = "/Post"
     };
     const onReset = () => {
 

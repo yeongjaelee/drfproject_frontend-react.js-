@@ -1,20 +1,17 @@
 import {Link} from "react-router-dom";
 import React from "react";
+import styles from "./Post.css";
 
 function Main(){
     return(
         <>
-        <h1>Main page</h1>
-        <div>
-            <Link to="Post/">
-                    go to post service
-            </Link>
-        </div>
-        <div>
-            <Link to="RestAPI/">
-                go to rest api service
-            </Link>
-        </div>
+                <Link to="Post/">
+                    <h3 className={styles.category}>post</h3>
+                </Link>
+                <Link to="RestAPI/">
+                    <h3>rest api</h3>
+                </Link>
+            <h1>yeongjae's develop projects</h1>
         </>
     )
 }

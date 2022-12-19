@@ -14,6 +14,8 @@ function Post(){
             {data.map((item)=>(
                 <li key = {item.id}>
                     <Link to ="Post_detail/" state={{
+                        id : item.id,
+                        title : item.title,
                         content: item.content
                     }}>
                     {item.title}
