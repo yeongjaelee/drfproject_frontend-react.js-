@@ -12,6 +12,9 @@ function Main(){
                     <h3>rest api</h3>
                 </Link>
             <h1>yeongjae's develop projects</h1>
+                <Link to="Login/">
+                    <h3>Login</h3>
+                </Link>
         </>
     )
 }
