@@ -17,3 +17,14 @@ this project is for making various function to practice django, react
 (4) also, you can update title, and content in a post (if you click the title in the post main page)
 
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/31798849/210191440-f40ce0cb-1b06-4081-9bac-436e3cc4b84c.png">
+
+
+2. Rest API function
+
+(1) if you click the post button, id, title, content, will be added on database and if you click the get button, you can see it
+
+
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/31798849/210191549-d80f73eb-153e-4e81-9109-ec6c06f18eaf.png">
+
+
+<img width="314" alt="image" src="https://user-images.githubusercontent.com/31798849/210191567-c52a6e07-edea-4119-b375-b1674dc891f6.png">
